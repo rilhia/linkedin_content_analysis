@@ -57,19 +57,21 @@ Being “Open To Work” leaves you with time on your hands. I figured this was 
 
 ## 🤔 Why Google Colab?
 
-I actually discovered Colab while working on training an LLM. I didn’t have access to a decent GPU and wasn’t keen on buying one — Colab was recommended to me because it offers GPU access for a relatively small cost, and the ability to mount Google Drive made life much easier for managing training data.
+I actually discovered Colab while working on training an LLM. I didn’t have access to a decent GPU and wasn’t keen on buying one. Colab was recommended to me because it offers GPU access for a relatively small cost, and the ability to mount Google Drive made life so much easier for managing training data.
 
-That got me thinking: most people already have a Google account. By building this as a Colab notebook, I could make it really simple to use — no need to install Python or set up anything locally. Just open the notebook and run it in the cloud.
+That got me thinking, most people already have a Google account. By building this as a Colab notebook, I could make it really simple to use with there being no need to install Python or set up anything locally. Just open the notebook and run it in the cloud.
 
 ---
 
 ## 🚀 How to use this
 
-1️⃣ Open this notebook in Google Colab:  
+1️⃣ Open this notebook in Google Colab by clicking on the link:  
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/your-repo/blob/main/LinkedIn_Post_Data.ipynb)
 
 2️⃣ Follow the instructions in the notebook:
+- How to mount your Google Drive
+- Set up your required variables
 - How to export a LinkedIn HAR file
 - How to upload it to Colab
 - How to run the analysis
