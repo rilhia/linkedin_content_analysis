@@ -70,6 +70,7 @@ That got me thinking, most people already have a Google account. By building thi
 <a href="https://colab.research.google.com/github/rilhia/linkedin_content_analysis/blob/main/LinkedIn_Post_Data.ipynb" target="_blank">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/>
 </a>  
+
 (Note: GitHub limitation, you'll need to right click on this and select "Open Link in New Tab" to keep this page open)
 
 2️⃣ Follow the instructions in the notebook:
