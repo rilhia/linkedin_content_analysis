@@ -67,7 +67,7 @@ That got me thinking, most people already have a Google account. By building thi
 
 1️⃣ Open this notebook in Google Colab by clicking on the link:  
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/your-repo/blob/main/LinkedIn_Post_Data.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rilhia/linkedin_content_analysis/blob/main/LinkedIn_Post_Data.ipynb)
 
 2️⃣ Follow the instructions in the notebook:
 - How to mount your Google Drive
