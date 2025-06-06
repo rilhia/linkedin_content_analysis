@@ -89,7 +89,9 @@ This project is licensed under the Creative Commons Attribution 4.0 Internationa
 
 ## 🎬 See it in action
 I’ve also recorded a short video demo that walks through the process:
-[▶️ Watch the video on YouTube](https://youtu.be/eEXc9kmjQsk)
+
+<a href="https://youtu.be/eEXc9kmjQsk" target="_blank">▶️ Watch the video on YouTube</a>
+
 
 ---
 
