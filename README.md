@@ -92,8 +92,47 @@ I’ve also recorded a short video demo that walks through the process:
 
 <a href="https://youtu.be/eEXc9kmjQsk" target="_blank">▶️ Watch the video on YouTube</a>
 
+---
+## 📕 Notes  
+
+I'll add notes here as I think of any or about any questions people ask me.
 
 ---
+### Capturing Large HAR Datasets: Recommended Approach
 
+When browsing LinkedIn’s infinite scrolling areas (such as the feed or profile pages), Chrome continuously loads more content through network requests. If you record a HAR file during this, the file will grow as you scroll.
+
+The issue is not that Chrome drops older data, but that very large HAR files (above 500MB) can cause problems when saving. Once a HAR file grows too large, Chrome may fail to export it properly. In some cases, you may end up with a zero-byte HAR file.
+
+To avoid this, it is best to create multiple smaller HAR files during a capture session. You should experiment with how much data you can scroll before a HAR file reaches an unmanageable size. This depends on your machine and browser version, but keeping each HAR file well below 500MB is generally safe.
+
+#### Recommended workflow
+
+1. Open Chrome DevTools and go to the **Network** tab.
+2. Enable **Preserve log**.
+3. Start recording.
+4. Begin scrolling through LinkedIn content.
+5. After a reasonable amount of scrolling, before the HAR file grows too large:
+    - Export the HAR file (for example: `linkedin_1.har`).
+    - Clear the Network log.
+6. Continue scrolling and repeat the process:
+    - Scroll → Save HAR → Clear → Scroll → Save HAR → Clear.
+7. At the end you will have multiple HAR files:
+    - `linkedin_1.har`
+    - `linkedin_2.har`
+    - `linkedin_3.har`
+    - etc.
+
+#### Why this works
+
+- It prevents Chrome from failing to save large HAR files.
+- It keeps HAR file sizes manageable and reliable.
+- It allows you to safely capture large datasets across multiple files.
+- The notebook is designed to handle and merge multiple HAR files automatically.
+
+#### Notes
+
+- Do not refresh the LinkedIn page during capture. You can switch tabs or windows, but do not reload the LinkedIn feed.
+- The amount of scrolling needed per HAR file depends on your system. Test a few times to find a safe range of data per file.
 
 
