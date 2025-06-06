@@ -95,7 +95,7 @@ I’ve also recorded a short video demo that walks through the process:
 ---
 ## 📕 Notes  
 
-I'll add notes here as I think of any or about any questions people ask me.
+All notes and common questions will be added here.
 
 ---
 ### Capturing Large HAR Datasets: Recommended Approach
