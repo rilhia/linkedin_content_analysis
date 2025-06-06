@@ -82,39 +82,16 @@ That got me thinking, most people already have a Google account. By building thi
 
 ---
 
-## 🧑‍💻 What's inside the notebook
-
-The tutorial covers:
-
-- **Section 1**: Why I built this  
-- **Section 2**: How to capture LinkedIn post data (HAR files)  
-- **Section 3**: How the notebook works  
-- **Section 4**: Analysis of post content  
-- **Section 5**: How this can be useful in other contexts  
-
----
-
 ## 📝 License
-
-This project is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
-
----
-
-## ⚡ Final thoughts
-
-This is a simple tool — but I believe it’s a useful one.  
-It helps bring **transparency and data literacy** to the analysis of online influence.
-
-And the same techniques can easily be adapted to analyse:
-- Your own LinkedIn posts
-- People you follow
-- Connections
-- Follower patterns  
-
-If you find it useful — let me know!  
+This project is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) license.
 
 ---
 
-**“The trick with technology is to avoid spreading darkness at the speed of light.”**
+## 🎬 See it in action
+I’ve also recorded a short video demo that walks through the process:
+[▶️ Watch the video on YouTube](https://youtu.be/eEXc9kmjQsk)
 
 ---
+
+
+
